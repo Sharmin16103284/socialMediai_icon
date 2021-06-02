@@ -1,0 +1,196 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    color: rgb(51, 51, 51);
+    background: rgb(166, 188, 250);
+}
+
+
+.icons{
+    height: 100px;
+    width: 500px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.icons ul{
+    left: 40%;
+    top: 40%;
+    position: absolute;
+}
+
+.icons ul li{
+    list-style: none;
+    float: left;
+    margin: 10px;
+    padding: 15px;
+    background-color: rgb(255, 34, 63);
+    border-radius: 50%;
+    border: none;
+    box-shadow: 5px 5px 7px rgba(43, 42, 42, 0.527);
+}
+
+.icons ul li:hover{
+    background-color:rgb(151, 5, 32);
+    transition: 2s ease background-color;
+}
+
+.icons ul li img{
+    align-items: center;
+    width: 20px;
+    width: 20px;
+    justify-content: center;
+}
+
+/* ============ */
+
+.icons2{
+    height: 100px;
+    width: 500px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.icons2 ul{
+    left: 40%;
+    top: 40%;
+    position: absolute;
+}
+
+.icons2 ul li{
+    list-style: none;
+    float: left;
+    margin: 10px;
+    padding: 15px;
+    background-color: rgb(255, 34, 63);
+    border-radius: 4px;
+    border: none;
+    box-shadow: 5px 5px 7px rgba(43, 42, 42, 0.527);
+}
+
+.icons2 ul li:hover{
+    border-radius: 50%;
+    background-color:rgb(139, 4, 29);
+    transition: 2s ease background-color;
+    transition: .5s ease border-radius;
+}
+
+.icons2 ul li img{
+    align-items: center;
+    width: 20px;
+    width: 20px;
+    justify-content: center;
+}
+
+/* =============== */
+
+.icons3{
+    height: 100px;
+    width: 500px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.icons3 ul{
+    left: 40%;
+    top: 40%;
+    position: absolute;
+}
+
+.icons3 ul li{
+    list-style: none;
+    float: left;
+    margin: 10px;
+    padding: 15px;
+    background-color: rgb(255, 34, 63);
+    border-radius: 4px;
+    border: none;
+    box-shadow: 5px 5px 7px rgba(43, 42, 42, 0.527);
+}
+
+.icons3 ul li:hover{
+    /* border-radius: 50%; */
+    background-color:crimson;
+    box-shadow: inset 5px 5px 7px rgba(94, 3, 21, 0.658),
+   inset -5px -5px 7px rgba(247, 34, 77, 0.589);
+    transition: 2s ease background-color;
+    /* transition: .5s ease box-shadow; */
+}
+
+.icons3 ul li img{
+    align-items: center;
+    width: 20px;
+    width: 20px;
+    justify-content: center;
+}
+
+/* ========= */
+
+.icon4{
+    height: 100px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.icon4 .one {
+    left: 20%;
+    top: 40%;
+    position: absolute;
+}
+
+.icon4 .two {
+    left: 20%;
+    top: 100%;
+    position: absolute;
+}
+
+.icon4 ul li{
+    list-style: none;
+    float: left;
+    margin: 3px;
+    padding: 15px;
+    background-color: rgb(255, 34, 63);
+    border: none;
+    box-shadow: 5px 5px 7px rgba(43, 42, 42, 0.527);
+}
+
+.icon4 .one ul li:nth-child(1){
+    border-radius: 50% 50% 0 50%;
+}
+
+.icon4 .one ul li:nth-child(2){
+    border-radius: 50% 50% 50% 0;
+}
+
+.icon4 .two ul li:nth-child(1){
+    border-radius: 50% 0 50% 50%;
+}
+
+.icon4 .two ul li:nth-child(2){
+    border-radius: 0 50% 50% 50%;
+}
+
+.icon4 ul li:hover{
+    /* border-radius: 50%; */
+    background-color:crimson;
+    box-shadow: inset 5px 5px 7px rgba(94, 3, 21, 0.658),
+   inset -5px -5px 7px rgba(247, 34, 77, 0.589);
+    transition: 2s ease background-color;
+    /* transition: .5s ease box-shadow; */
+}
+
+.icon4 ul li img{
+    align-items: center;
+    width: 20px;
+    width: 20px;
+    justify-content: center;
+}
